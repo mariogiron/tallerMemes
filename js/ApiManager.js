@@ -1,4 +1,4 @@
-class ApiManager {
+export default class ApiManager {
 
     constructor(pBaseUrl, pApiKey) {
         this.baseUrl = pBaseUrl;

@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Taller de Memes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-light bg-id">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img
+                        src="https://iddigitalschool.com/bootcamps/wp-content/uploads/2021/03/id-bootcamps-logo-sobre-fondo-oscuro.svg">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5">
+        <section class="container">
+            <div class="mb-5">
+                <input type="text" id="search" placeholder="Buscar el meme de tu vida" class="form-control">
+            </div>
 
-    <script src="ApiManager.js"></script>
+            <div class="row" id="memes">
+                <!-- <article>
+                    <figure>
+                        <img src="">
+                    </figure>
+                    <h3>Titulo del Gif</h3>
+                </article> -->
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 
 </html>

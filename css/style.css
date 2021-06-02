@@ -1,0 +1,11 @@
+.bg-id {
+    background-color: #151d34;
+    border-bottom: 3px solid #33D6CC;
+    box-shadow: 1px 1px 10px #444;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
